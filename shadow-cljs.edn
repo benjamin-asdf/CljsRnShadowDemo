@@ -6,5 +6,5 @@
                :output-dir "app"
                :devtools   {:autoload   true
                             :after-load steroid.rn.core/reload
-                            :preloads   [re-frisk-rn.preload]
+                            ;; :preloads   [re-frisk-rn.preload]
                             }}}}
