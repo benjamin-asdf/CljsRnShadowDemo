@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# https://reactnative.dev/docs/signed-apk-android
+
+
+cd /lib/jvm/java-11-openjdk/
+
+sudo keytool -genkey -v -keystore ben-cljs-rn-demo.keystore -alias ben-cljs-rn -keyalg RSA -keysize 2048 -validity 10000
+
+
+
